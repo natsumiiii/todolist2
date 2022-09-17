@@ -1,0 +1,33 @@
+.todo{
+    background-color: #fdfdfd;
+    padding: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0,  .25);
+    
+    }
+    .title,
+    .description{
+    color: #333;
+    letter-spacing: 1px;
+    }
+    .title{
+      font-weight: bold;
+    }
+    .description{
+    font-size: 16px;
+    }
+    .deleteButtom,
+    .editButton{
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 16px 24px;
+      transition: .1s;
+    }
+    .deleteButton{
+      border: 1px solid red;
+      color: red;
+    }
+    .deleteButtom{
+      border: 1px solid green;
+      color: green;
+    }
+    
